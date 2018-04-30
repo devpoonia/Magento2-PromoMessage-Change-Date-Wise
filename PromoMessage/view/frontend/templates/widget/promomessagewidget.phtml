@@ -1,0 +1,6 @@
+<?php $promoMessages = $block->getPromoMessageByDate();
+foreach($promoMessages as $promoMessage):
+	echo $promoMessage->getPromoMessage();
+	break;
+endforeach;
+?>

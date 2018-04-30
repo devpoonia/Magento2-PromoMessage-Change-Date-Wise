@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Devpoonia_PromoMessage extension
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category  Devpoonia
+ * @package   Devpoonia_PromoMessage
+ * @copyright Copyright (c) 2018
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Devpoonia_PromoMessage::promomessage" title="Promo Message" module="Devpoonia_PromoMessage" sortOrder="55" resource="Devpoonia_PromoMessage::promomessage"/>
+        <add id="Devpoonia_PromoMessage::promomessage_promomessagelist" title="Promo Message Lists" module="Devpoonia_PromoMessage" sortOrder="10" action="devpoonia_promomessage/promomessagelist" resource="Devpoonia_PromoMessage::promomessage_promomessagelist" parent="Devpoonia_PromoMessage::promomessage"/>
+    </menu>
+</config>
